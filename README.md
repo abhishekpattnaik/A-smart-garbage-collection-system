@@ -1,4 +1,50 @@
 # A-smart-garbage-collection-system
-Things that are connected to Internet and sometimes these devices can be controlled from the internet is commonly called as Internet of Things. The Internet of Things (IoT) is a concept in which surrounding objects are connected through wired and wireless networks without user intervention. In the field of IoT, the objects communicate and exchange information to provide advanced intelligent services for users. Owing to the recent advances in mobile devices equipped with various sensors andcommunicationmodules,togetherwithcommunicationnetworktechnologiessuch as Wi-Fi and LTE, the IoT has gained considerable academic interests. Owing to the characteristics and merits of IoT services, waste management has also become a significant issue in academia, industry, and government as major IoT application fields. An indiscriminate and illegal discharge of waste, an absence of waste disposal and management systems, and inefficient waste management policies have caused serious environmental problems and have incurred considerable costs for waste disposal.Inoursystem,theSmartdustbinsareconnectedtotheinternettogetthereal timeinformationofthesmartdustbins.Intherecentyears,therewasarapidgrowthin populationwhichleadstomorewastedisposal.Soaproperwastemanagementsystem is necessary to avoid spreading some deadly diseases. Managing the smart bins by monitoring the status of it and accordingly taking the decision. This waste is further picked up by the municipal corporations to finally dump it in dumping areas and landfills. But due to lack of resources, ineffective groundwork, some waste is not collected which poses serious health hazard to the surrounding environment. Proper cleaning intervals may provide a solution to this problem. But keeping a track of the status of the bin manually is a very difficult job. There are multiple dustbins are located throughout the city or the Campus In our system, the Smart dust bins are connected to the internet to get the real time information of the smart dustbins. These dustbins are interfaced with raspberry pi based system with ultrasonic sensors. Where the ultrasonic sensor detects the level of the dust in dustbin and sends the signals to raspberrypithesamesignalareencodedandsend to theapplicationanditisreceived.
- 
-The data has been received, analyzed and processed in the database, which displays the status of the Garbage in the dustbin on the application of authorized person mobile. The concerned authority get alert about dustbin is full and informs person whoever is responsible for collecting garbage from the particular areas. The garbage trucks collect the garbage from the completely full dustbin and dispose it.
+Short description of the project:
+This project is an innovative system which will help to keep the cities clean. It gives a real
+time indication of the garbage level present in a trashcan at any given instant of time. This
+system uses ultrasonic sensors placed over the bin to detect the garbage level and a weight
+sensor placed at the bottom of the bin to measure the weight of the garbage. Using that data,
+trucks will be categorized according to the measured weight of the garbage stored in dustbin at
+different places, after that routes will be optimized and accordingly the trucks will be directed
+to go to the places where the garbage cans will be filled i.e. which are required to be evacuated
+immediately, rather than wandering all over the places for the filled cans. This could result to
+less fuel consumption as well as less time consumption process. Likewise It allows trash
+collectors to plan their daily/weekly pick up schedule.
+Aim/Objective of the project:
+The smart trash bin will fetch data using the sensors (ultrasonic sensor and weight sensor) in it
+and will forward the data to the cloud using a microcontroller.
+Methodology :
+So here we have replaced the manual system by introducing the concept of automation, which
+provides more benefit and accurate information time to time. The process is: -
+• bin collects the data with the use of ultra-sonic sensor and weight sensor.
+• this information is collected through Wi-Fi and then sent to the cloud for processing
+through a microcontroller(Raspberry pi).
+• An android application will be developed for data monitoring.
+• According to the collected data, shortest path will be made for the truck drivers.
+• Sending the vehicles for particular area to collect the trash depending on the type of
+material it is segregated.
+
+Possible outcome of the project:
+In today’s busy world people are trying their best to reduce their manual effort by introducing
+a new revolutionary concept so called automation, this thing helps a lot for more efficient
+outcome with less time utilization. Here in this project we have the same intention to reduce
+human effort and let the machines to solve our complex problems. The concept of smart
+garbage can reduce human effort to a greater extent. It won’t just reduce the complexities but
+it will be also useful for reducing fuel consumption as well as time consumption. This concept
+is all about cleanliness which has become a serious problem in our country, so we hope this
+might work well in that field as well.
+Importance of the project in engineering aspect:
+This project introduces us to the field of Embedded System, implementation of maps, Android
+application development, automation and many such. These all fields have become one of the
+most uprising technological advancement aspects. In the present generation these things have
+overcome all the other traditional techniques of implementation and have enhanced the field of
+advancement to a different level. So working on this field will definitely help us too learn a lot
+and help us in future as well.
+Innovativeness:
+The smart phone application can track the trash cans and it will pin it in the map as a pickup
+spot and accordingly it will find the shortest path along with the categorization. It includes
+concepts of two major uprising technological fields i.e. IoT as well as smart phone application.
+All together it will result to a very efficient model. This project isn’t just all about
+technological advancement, its concern is also about the welfare of humans, by taking a step
+towards the cleanliness of our environment. One way or other we have got a chance to support
+the swach bharat abhiyan program.
